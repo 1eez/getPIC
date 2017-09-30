@@ -1,0 +1,13 @@
+    <view class="heightem"></view>
+    
+    <view class="gank-content" wx:key="{{item._id}}" wx:for="{{GankDatas}}">
+
+            <view class="haveImg" bindtap="onSavePic" data-imgSrc="{{item.url}}">
+                <image class="haveImage" src="{{item.url}}" mode="aspectFill"   ></image>
+                <view class="haveDesc">{{item.desc}}</view>
+                <view class="havePublishedAt">{{item.who}}</view>   
+            </view> 
+
+    
+    </view>
+

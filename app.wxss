@@ -1,0 +1,17 @@
+/* app.wxss 是整个小程序的公共样式表。*/
+/* 我们可以在页面组件的 class 属性上直接使用 app.wxss 中声明的样式规则。 */
+/* 貌似wxss不能用双斜线做注释 */
+
+
+.container {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+      align-items: center;
+}
+
+page {
+    background-color: #F2f2f2;
+}

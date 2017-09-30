@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/request",
+    "pages/index/index"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#292929",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "干货集中营",
+    "enablePullDownRefresh": true
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
